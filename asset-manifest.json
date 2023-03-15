@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CinemaZone/static/css/main.89e1b3cf.css",
+    "main.js": "/CinemaZone/static/js/main.c31313f8.js",
+    "static/media/fa-solid-900.ttf": "/CinemaZone/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/header-bcg.jpg": "/CinemaZone/static/media/header-bcg.de7424e7d682af4ad5e1.jpg",
+    "static/media/fa-brands-400.ttf": "/CinemaZone/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/CinemaZone/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/CinemaZone/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/fa-regular-400.ttf": "/CinemaZone/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/fa-regular-400.woff2": "/CinemaZone/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/fa-v4compatibility.ttf": "/CinemaZone/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/CinemaZone/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/CinemaZone/index.html",
+    "main.89e1b3cf.css.map": "/CinemaZone/static/css/main.89e1b3cf.css.map",
+    "main.c31313f8.js.map": "/CinemaZone/static/js/main.c31313f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89e1b3cf.css",
+    "static/js/main.c31313f8.js"
+  ]
+}
