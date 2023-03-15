@@ -1,0 +1,24 @@
+.header {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  min-width: 1400px;
+  height: 100vh;
+  background: linear-gradient(to top, rgba(255,255,255,0), rgb(15, 10, 10)), url("../../images/header-bcg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+
+  &__wrapper {
+    padding: 0 44px;
+    height: 100%;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+}
