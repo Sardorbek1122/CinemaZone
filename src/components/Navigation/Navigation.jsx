@@ -1,6 +1,5 @@
 import React from "react";
 import "../../styles/App.scss";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Navigation extends React.Component {
   render() {
@@ -23,13 +22,13 @@ class Navigation extends React.Component {
             <div className="header__content">
               <h1 className="header__hero-title">Unlimited movies, TV shows, and more.</h1>
               <p className="header__text-subtitle">Watch anywhere. Cancel anytime.</p>
-              <div>
+              <div className="header__form-wrapper">
                 <form method="post" className="header__form">
                   <h3 className="header__form-title">Ready to watch? Enter your email to create or restart your membership.</h3>
                   <div>
-                    <div>
-                      <input type="email" placeholder="Email address" />
-                      <button>Get Started</button>
+                    <div className="header__form-cache">
+                      <input className="header__form-email" type="email" placeholder="Email address" />
+                      <button className="header__form-btn">Get Started</button>
                     </div>
                   </div>
                 </form>

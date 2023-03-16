@@ -1,12 +1,8 @@
 .header {
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  min-width: 1400px;
-  height: 100vh;
-  background: linear-gradient(to top, rgba(255,255,255,0), rgb(15, 10, 10)), url("../../images/header-bcg.jpg");
+  background: linear-gradient(to top, rgba(255,255,255,0),  rgb(15, 10, 10)), url("../../images/header-bcg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
   z-index: -2;
 
   &__wrapper {
@@ -20,5 +16,54 @@
     align-items: center;
     flex-direction: column;
     height: 100%;
+  }
+
+  &__hero-title {
+    @include fontParams(3rem, 100%, 900);
+    color: $primaryColor;
+  }
+
+  &__text-subtitle {
+    @include fontParams(1.5rem, 100%, 400);
+    color: $primaryColor;
+    margin-top: 22px;
+  }
+  &__form-title {
+    @include fontParams(1.25rem, 1.85%, 400);
+    color: $primaryColor;
+  }
+
+  &__form-wrapper {
+    margin-top: 33px;
+  }
+
+  &__form-cache {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+  }
+
+  &__form-email {
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: $primaryColor;
+    line-height: 1.5rem;
+    padding: 16px 33px;
+    border: 1px solid $primaryColor;
+    border-radius: 5px;
+  }
+
+  &__form-btn {
+    @include fontParams(33px, 100%, 900);
+    padding: 16px 33px;
+    margin-top: 0;
+    margin-left: 0.5rem;
+    background-color: red;
+    color: $primaryColor;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
   }
 }

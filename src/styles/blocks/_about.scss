@@ -1,0 +1,28 @@
+.about {
+  display: flex;
+  color: red;
+  height: 391px;
+  background-color: black;
+
+  &__top-border {
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -0.5rem;
+    background-color: rgb(35,35,35);
+  }
+
+  &__enjoy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__enjoy-img {
+    background-image: url(../../images/tv.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:  470px;
+    height: 360px;
+  }
+}
