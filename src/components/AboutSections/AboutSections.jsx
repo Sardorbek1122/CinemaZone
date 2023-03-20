@@ -16,15 +16,12 @@ class AboutSections extends React.Component {
               </p>
             </div>
             <div className="about__enjoy-pic">
-              <div className="about__enjoy-img"></div>
-              <div className="about__enjoy-video">
-                <video autoPlay playsInline muted loop>
+                <video className="about__enjoy-vidcon" autoPlay playsInline muted loop>
                   <source
                     src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
                     type="video/mp4"
                   />
                 </video>
-              </div>
             </div>
           </div>
           <div className="about__top-border"></div>
@@ -66,13 +63,11 @@ class AboutSections extends React.Component {
             </div>
             <div className="about__enjoy-pic">
               <div className="about__enjoy2-img"></div>
-              <div className="about__enjoy2-video">
-                <video autoPlay playsInline muted loop>
+                <video className="about__enjoy2-vidcon" autoPlay playsInline muted loop>
                   <source
                     src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
                   />
                 </video>
-              </div>
             </div>
           </div>
         </section>
