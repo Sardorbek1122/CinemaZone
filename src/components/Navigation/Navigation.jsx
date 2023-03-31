@@ -4,7 +4,7 @@ import "../../styles/App.scss";
 class Navigation extends React.Component {
   render() {
     return (
-      <div>
+      <div className="nav-head">
         <nav class="navbar">
           <a href="/" class="navbar__logo">CinemaZone</a>
           <ul class="navbar__menu">

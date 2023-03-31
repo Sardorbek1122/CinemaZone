@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/App.scss";
+import FAQSection from "../FAQSection";
 
 class AboutSections extends React.Component {
   render() {
@@ -51,7 +52,6 @@ class AboutSections extends React.Component {
             </div>
           </div>
           <div className="about__top-border"></div>
-
           <div className="about__enjoy">
             <div className="about__enjoy-content">
               <h2 className="about__enjoy-title">
@@ -70,7 +70,22 @@ class AboutSections extends React.Component {
                 </video>
             </div>
           </div>
+          <div className="about__top-border"></div>
+          <div className="about__download">
+            <div className="about__kids-pic">
+            </div>
+            <div className="about__download-content">
+              <h2 className="about__download-title">
+                Download your shows to watch offline.
+              </h2>
+              <p className="about__download-text">
+                Save your favorites easily and always have something to watch.
+              </p>
+            </div>
+          </div>
+          <div className="about__top-border"></div>
         </section>
+        <FAQSection/>
       </div>
     );
   }

@@ -6,7 +6,7 @@
   color: $primaryColor;
   height: auto;
   background-color: black;
-  padding: 0 140px;
+  box-sizing: border-box;
 
   &__top-border {
     width: 100%;
@@ -17,16 +17,18 @@
 
   &__enjoy {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    max-width: calc( 83.33333333333334% - 6rem );
     height: 400px;
-    margin: auto;
-    padding: 4.5rem 0;
+    width: 100%;
+    margin: 15px 0;
+    padding: 4.5rem 140px;
   }
 
   &__enjoy-pic {
     position: relative;
+    display: flex;
+    justify-content: center;
     flex-basis: 50%;
     height: 100%;
     min-height: auto;
@@ -39,7 +41,6 @@
   &__enjoy-vidcon {
     border: 2px rgb(76, 52, 52) solid;
     border-radius: 15px;
-    width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center
@@ -53,7 +54,6 @@
   &__enjoy2-vidcon {
     border: 2px rgb(76, 52, 52) solid;
     border-radius: 15px;
-    width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center
@@ -73,9 +73,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: calc( 83.33333333333334% - 6rem );
     margin: auto;
-    padding: 4.5rem 0;
+    padding: 4.5rem 140px;
   }
 
   &__download-content {
@@ -153,6 +152,21 @@
     width: 70px;
     height: 85px;
     background-image: url(../../images/download-icon.gif);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  &__kids-pic {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    width: 400px;
+    height: 400px;
+    min-height: auto;
+    background-image: url(../../images/kids-pic.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
