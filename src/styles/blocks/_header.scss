@@ -34,7 +34,8 @@
     margin-top: 22px;
   }
   &__form-title {
-    @include fontParams(1.25rem, 1.85%, 400);
+    @include fontParams(1.25rem, 120%, 400);
+    text-align: center;
     color: $primaryColor;
   }
 

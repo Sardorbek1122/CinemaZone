@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/App.scss";
 import FAQSection from "../FAQSection";
+import Footer from "../Footer";
 
 class AboutSections extends React.Component {
   render() {
@@ -86,6 +87,8 @@ class AboutSections extends React.Component {
           <div className="about__top-border"></div>
         </section>
         <FAQSection/>
+        <div className="about__top-border"></div>
+        <Footer/>
       </div>
     );
   }

@@ -56,7 +56,6 @@ function FAQSection() {
     });
     setFaqs(newFaqs);
   }
-  
 
   return (
     <section className="faq">
@@ -68,13 +67,31 @@ function FAQSection() {
               className={`faq__faq ${faq.active ? "active" : ""}`}
               key={index}
             >
-              <button className="faq__question" onClick={() => toggleFAQ(index)}>
+              <button
+                className="faq__question"
+                onClick={() => toggleFAQ(index)}
+              >
                 {faq.question} <span>+</span>
               </button>
               {faq.active && <p className="faq__answer">{faq.answer}</p>}
             </div>
           ))}
         </div>
+
+        <form className="faq__search-bar-form" action="/" method="post">
+          <h3 className="faq__search-bar-header">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h3>
+          <div className="faq__search-bar">
+            <input
+              type="email"
+              placeholder="Search for movies, TV shows, and more"
+              required
+            />
+            <button>Get Started &gt;</button>
+          </div>
+        </form>
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/App.scss";
+import AboutSections from "../AboutSections/AboutSections";
 
 class Navigation extends React.Component {
   render() {
@@ -36,6 +37,7 @@ class Navigation extends React.Component {
             </div>
           </div>
         </header>
+        <AboutSections/>
       </div>
     );
   }
