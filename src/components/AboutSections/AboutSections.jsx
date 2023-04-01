@@ -6,7 +6,7 @@ import Footer from "../Footer";
 class AboutSections extends React.Component {
   render() {
     return (
-      <div>
+      <div className="sections">
         <section className="about">
           <div className="about__top-border"></div>
           <div className="about__enjoy">

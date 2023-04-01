@@ -2,15 +2,22 @@ import "./styles/App.scss";
 import Navigator from "./components/Navigation";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "@fortawesome/fontawesome-free/js/all.min.js";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
+import SingInPage from "./components/SignInPage";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+      <Routes>
+        <Route path="/" element={
           <Navigator />
-      </div>
-    </Router>
+        }
+        />
+
+        <Route path="/sign-in" element={
+          <SingInPage />
+        }
+        />
+      </Routes>
   );
 }
 

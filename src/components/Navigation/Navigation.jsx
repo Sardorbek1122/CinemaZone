@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/App.scss";
 import AboutSections from "../AboutSections/AboutSections";
 
@@ -15,7 +16,7 @@ class Navigation extends React.Component {
               <option value="rus">Russian</option>
             </select>
             </div>
-            <a href="/" className="navbar__singin">Sign in</a>
+            <Link className="navbar__singin" to="/sign-in">Sign in</Link>
           </ul>
         </nav>
         <header className="header">
