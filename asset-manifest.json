@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CinemaZone/static/css/main.485c6e85.css",
-    "main.js": "/CinemaZone/static/js/main.a3046655.js",
+    "main.js": "/CinemaZone/static/js/main.405c8723.js",
     "static/media/fa-solid-900.ttf": "/CinemaZone/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/kids-pic.png": "/CinemaZone/static/media/kids-pic.e93820cb7c2a2691baf7.png",
     "static/media/header-bcg.jpg": "/CinemaZone/static/media/header-bcg.de7424e7d682af4ad5e1.jpg",
@@ -17,10 +17,10 @@
     "static/media/fa-v4compatibility.woff2": "/CinemaZone/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/CinemaZone/index.html",
     "main.485c6e85.css.map": "/CinemaZone/static/css/main.485c6e85.css.map",
-    "main.a3046655.js.map": "/CinemaZone/static/js/main.a3046655.js.map"
+    "main.405c8723.js.map": "/CinemaZone/static/js/main.405c8723.js.map"
   },
   "entrypoints": [
     "static/css/main.485c6e85.css",
-    "static/js/main.a3046655.js"
+    "static/js/main.405c8723.js"
   ]
 }
