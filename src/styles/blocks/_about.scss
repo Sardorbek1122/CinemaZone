@@ -1,28 +1,174 @@
 .about {
   display: flex;
-  color: red;
-  height: 391px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: $primaryColor;
+  height: auto;
   background-color: black;
+  box-sizing: border-box;
 
   &__top-border {
     width: 100%;
     height: 0.5rem;
-    position: absolute;
     bottom: -0.5rem;
     background-color: rgb(35,35,35);
   }
 
   &__enjoy {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    height: 400px;
+    width: 100%;
+    margin: 15px 0;
+    padding: 4.5rem 140px;
   }
 
-  &__enjoy-img {
-    background-image: url(../../images/tv.png);
+  &__enjoy-pic {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+    height: 100%;
+    min-height: auto;
+  }
+
+  &__enjoy-content {
+    flex-basis: 50%;
+  }
+
+  &__enjoy-vidcon {
+    border: 2px rgb(76, 52, 52) solid;
+    border-radius: 15px;
+    height: 100%;
+    background-size: cover;
+    background-position: center
+  }
+
+  &__enjoy2-video {
+    width: 500px;
+    margin: auto;
+  }
+
+  &__enjoy2-vidcon {
+    border: 2px rgb(76, 52, 52) solid;
+    border-radius: 15px;
+    height: 100%;
+    background-size: cover;
+    background-position: center
+  }
+
+  &__enjoy-title {
+    @include fontParams (3rem, 4rem, 900);
+  }
+
+  &__enjoy-text {
+    @include fontParams (1.5rem, 120%, 400);
+    margin-top: 22px;
+    padding-right: 9px;
+  }
+
+  &__download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 4.5rem 140px;
+  }
+
+  &__download-content {
+    flex-basis: 50%;
+  }
+
+  &__download-title {
+    @include fontParams (3rem, 4rem, 900);
+  }
+
+  &__download-text {
+    @include fontParams (1.5rem, 120%, 400);
+    margin-top: 22px;
+    padding-right: 9px;
+  }
+
+  &__download-pic {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    width: 400px;
+    height: 400px;
+    min-height: auto;
+  }
+
+  &__download-img {
+    position: absolute;
+    width: 400px;
+    height: 419px;
+    background-image: url(../../images/mobile-0819.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width:  470px;
-    height: 360px;
+    background-position: center;
+  }
+
+  &__download-motion {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 35px;
+    width: 340px;
+    height: 105px;
+    padding: 11px 16px;
+    background-color: #000;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    color: $primaryColor;
+    margin: 0 auto;
+  }
+
+  &__download-m-pic {
+    width: 70px;
+    height: 95px;
+    background-image: url(../../images/strangeth.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  &__download-m-text {
+    @include fontParams (19px, 120%, 400);
+    color: #0000ff;
+    
+    & > span {
+      @include fontParams (22px, 120%, 500);
+      color: $primaryColor;
+    }
+  }
+
+  &__download-m-animation {
+    width: 70px;
+    height: 85px;
+    background-image: url(../../images/download-icon.gif);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  &__kids-pic {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    width: 400px;
+    height: 400px;
+    min-height: auto;
+    background-image: url(../../images/kids-pic.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 }

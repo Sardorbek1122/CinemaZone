@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/App.scss";
+import AboutSections from "../AboutSections/AboutSections";
 
 class Navigation extends React.Component {
   render() {
     return (
-      <div>
+      <div className="nav-head">
         <nav class="navbar">
           <a href="/" class="navbar__logo">CinemaZone</a>
           <ul class="navbar__menu">
@@ -14,7 +16,7 @@ class Navigation extends React.Component {
               <option value="rus">Russian</option>
             </select>
             </div>
-            <a href="/" className="navbar__singin">Sign in</a>
+            <Link className="navbar__singin" to="/sign-in">Sign in</Link>
           </ul>
         </nav>
         <header className="header">
@@ -36,6 +38,7 @@ class Navigation extends React.Component {
             </div>
           </div>
         </header>
+        <AboutSections/>
       </div>
     );
   }

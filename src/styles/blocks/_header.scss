@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100%;
   z-index: -2;
 
   &__wrapper {
@@ -15,26 +16,31 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: calc( 83.33333333333334% - 6rem );
+    margin: auto;
     height: 100%;
   }
 
   &__hero-title {
     @include fontParams(3rem, 100%, 900);
+    text-align: center;
     color: $primaryColor;
   }
 
   &__text-subtitle {
     @include fontParams(1.5rem, 100%, 400);
+    font-family: "Roboto", sans-serif;
     color: $primaryColor;
     margin-top: 22px;
   }
   &__form-title {
-    @include fontParams(1.25rem, 1.85%, 400);
+    @include fontParams(1.25rem, 120%, 400);
+    text-align: center;
     color: $primaryColor;
   }
 
   &__form-wrapper {
-    margin-top: 33px;
+    margin-top: 43px;
   }
 
   &__form-cache {

@@ -1,0 +1,35 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  height: auto;
+  background-color: black;
+  box-sizing: border-box;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 45px 44px;
+  }
+
+  &__heading {
+    margin-right: 15px;
+    
+    & > a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+
+  &__sign-in {
+    color: #fff;
+    text-decoration: underline;
+  }
+}

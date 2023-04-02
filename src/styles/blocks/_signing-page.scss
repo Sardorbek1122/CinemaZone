@@ -1,0 +1,40 @@
+.signing-page {
+  position: relative;
+  background: linear-gradient(to top, rgba(255,255,255,0),  rgb(15, 10, 10)), url("../../images/header-bcg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  min-height: 1080px;
+  width: 100%;
+
+  &__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 118px;
+  }
+
+  &__form-wrapper {
+    background-color: rgba(0,0,0,.75);
+    max-width: 450px;
+    height: 700px;
+    min-height: 700px;
+    margin: 20px auto;
+    padding: 0 3%;
+  }
+
+  &__form-body {
+    height: 100%;
+    min-height: 660px;
+    padding: 60px 0;
+  }
+
+  &__form-body-header {
+    color: #fff;
+  }
+
+  &__form {
+    color: #fff;
+  }
+}
