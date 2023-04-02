@@ -10,7 +10,7 @@ function App() {
   return (
     <Switch>
       {" "}
-      <Route exact path="/">
+      <Route exact path="/CinemaZone/">
         {" "}
         <Navigator />{" "}
       </Route>{" "}
