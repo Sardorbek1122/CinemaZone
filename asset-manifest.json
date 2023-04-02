@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/CinemaZone/static/css/main.791159a3.css",
-    "main.js": "/CinemaZone/static/js/main.36b62c48.js",
-    "static/media/fa-solid-900.ttf": "/CinemaZone/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "main.css": "/CinemaZone/static/css/main.485c6e85.css",
+    "main.js": "/CinemaZone/static/js/main.a3046655.js",
+    "static/media/fa-solid-900.ttf": "/CinemaZone/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/kids-pic.png": "/CinemaZone/static/media/kids-pic.e93820cb7c2a2691baf7.png",
     "static/media/header-bcg.jpg": "/CinemaZone/static/media/header-bcg.de7424e7d682af4ad5e1.jpg",
-    "static/media/fa-brands-400.ttf": "/CinemaZone/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
-    "static/media/fa-solid-900.woff2": "/CinemaZone/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
-    "static/media/fa-brands-400.woff2": "/CinemaZone/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
-    "static/media/fa-regular-400.ttf": "/CinemaZone/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/fa-brands-400.ttf": "/CinemaZone/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/CinemaZone/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/CinemaZone/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/CinemaZone/static/media/fa-regular-400.d87474231f4192884802.ttf",
     "static/media/mobile-0819.jpg": "/CinemaZone/static/media/mobile-0819.063578d5b6d5ab4155ec.jpg",
-    "static/media/fa-regular-400.woff2": "/CinemaZone/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/fa-regular-400.woff2": "/CinemaZone/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
     "static/media/download-icon.gif": "/CinemaZone/static/media/download-icon.1ce72c891b52e6f68f2f.gif",
     "static/media/strangeth.png": "/CinemaZone/static/media/strangeth.347f4ee3bafbdfe71112.png",
-    "static/media/fa-v4compatibility.ttf": "/CinemaZone/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
-    "static/media/fa-v4compatibility.woff2": "/CinemaZone/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "static/media/fa-v4compatibility.ttf": "/CinemaZone/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/CinemaZone/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/CinemaZone/index.html",
-    "main.791159a3.css.map": "/CinemaZone/static/css/main.791159a3.css.map",
-    "main.36b62c48.js.map": "/CinemaZone/static/js/main.36b62c48.js.map"
+    "main.485c6e85.css.map": "/CinemaZone/static/css/main.485c6e85.css.map",
+    "main.a3046655.js.map": "/CinemaZone/static/js/main.a3046655.js.map"
   },
   "entrypoints": [
-    "static/css/main.791159a3.css",
-    "static/js/main.36b62c48.js"
+    "static/css/main.485c6e85.css",
+    "static/js/main.a3046655.js"
   ]
 }
